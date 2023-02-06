@@ -147,7 +147,7 @@ var ars = map[int]*section{
 var ats = map[int]*section{
 	2:  {isTutorial: true, time: f12, instructor: "Sarah Bates"},
 	3:  {isTutorial: true, time: f12, instructor: "Amy Carleton"},
-	4:  {isTutorial: true, time: f12, instructor: "Dave Larson"},
+	4:  {isTutorial: true, time: f23, instructor: "Dave Larson"},
 	5:  {isTutorial: true, time: f12, instructor: "Michael Maune"},
 	6:  {isTutorial: true, time: f12, instructor: "Laura McKee"},
 	7:  {isTutorial: true, time: f12, instructor: "Kate Parsons"},
@@ -155,7 +155,7 @@ var ats = map[int]*section{
 	9:  {isTutorial: true, time: f12, instructor: "Michael Trice"},
 	10: {isTutorial: true, time: f23, instructor: "Sarah Bates"},
 	11: {isTutorial: true, time: f23, instructor: "Amy Carleton"},
-	12: {isTutorial: true, time: f23, instructor: "Keith Clavin"},
+	12: {isTutorial: true, time: f12, instructor: "Keith Clavin"},
 	13: {isTutorial: true, time: f23, instructor: "Laura McKee"},
 	14: {isTutorial: true, time: f23, instructor: "Kate Parsons"},
 	15: {isTutorial: true, time: f23, instructor: "Thomas Pickering"},
@@ -171,9 +171,9 @@ var ats = map[int]*section{
 // necessary and ensure that instructor names match precisely
 // with those in ars and ats.
 var r2t = map[string][]string{
-	"Mohammad Alizadeh": {"Keith Clavin", "Michael Maune"},
+	"Mohammad Alizadeh": {"Dave Larson", "Michael Maune"},
 	"Adam Belay":        {"Amy Carleton"},
-	"Mark Day":          {"Dave Larson", "Jessie Stickgold-Sarah"},
+	"Mark Day":          {"Keith Clavin", "Jessie Stickgold-Sarah"},
 	"Sam DeLaughter":    {"Kate Parsons"},
 	"Manya Ghobadi":     {"Laura McKee"},
 	"Sam Madden":        {"Sarah Bates"},
